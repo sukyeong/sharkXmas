@@ -1,0 +1,484 @@
+<idoctype html>
+	<head>
+		<meta charset = "utf-8">
+		<link href='normalize.css' rel="stylesheet">
+<link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+<script src="scrollByAnimated.js"></script>
+
+
+
+       
+       <title>상어가족</title>
+       
+       <style>
+        		.bubble{
+			width:50px; height:900px; 
+			background:url('snow.png');
+			background-size:100% auto;
+			background-repeat:no-repeat;
+			animation: bMove 8s linear;
+		}
+		@keyframes bMove{
+			0%{ background-position: 0 700px; opacity:0;}
+			20%{opacity:1;}
+			80%{ opacity:1; }
+			100%{ background-position:0 0;opacity:0;}
+		}
+	
+       html  { font-family: 'Spoqa Han Sans'; font-weight: 200;font-weight:bold;}
+			
+       	header #logo{width:1000px;height:100px;text-align: center;margin-left:70;top:-5px; margin-right:-10;position:relative;left:calc(-10% - 200px);transition: all 0.3s;background:none }
+
+       		header #logo2{width:1000px;height:10px;text-align: center;margin-left:1300;top:-95px; margin-right:-10;position:relative;left:calc(-10% - 200px);transition: all 0.3s;background:none;cursor:pointer; }
+
+       		header #logo3{width:1000px;height:10px;text-align: center;margin-left:1300;top:10px; margin-right:-10;position:relative;left:calc(-10% - 200px);transition: all 0.3s;background:none;cursor:pointer; }
+
+
+       		header #logo4{width:1000px;height:10px;text-align: center;margin-left:1300;top:115px; margin-right:-10;position:relative;left:calc(-10% - 200px);transition: all 0.3s;background:none;cursor:pointer; }
+       	
+       	header #menu{width:1700px;height:200px;position:relative;left:calc(30%-10px);top:90px;transition: all 0.3s;  z-index:9999; top:30px;}
+       
+		header #menu li{width:200px;height:100px;float:left;text-align:center;margin-left:-120; margin-right:120;display:block;cursor:pointer; z-index:9999; position: relative;}
+  
+   header #menuA:hover{background: url('bubble_2.png'); background-size: 100% auto;margin-bottom:700px;} 
+    header #menuB:hover{background: url('bubble_3.png'); background-size: 100% auto;margin-bottom:700px;} 
+     header #menuC:hover{background: url('bubble_4.png'); background-size: 100% auto;margin-bottom:700px;} 
+      header #menuD:hover{background: url('bubble_5.png'); background-size: 100% auto;margin-bottom:700px;} 
+       header #menuE:hover{background: url('bubble_6.png'); background-size: 100% auto;margin-bottom:700px;} 
+
+
+
+   section h2{color:white; font-size: 3em; font-weight:100; position: absolute;line-height: 1.2}
+		
+	
+
+
+	#star{width:700px;height:200px;
+			position:relative;
+			animation:starMove 15s infinite linear paused;	}
+			@keyframes starMove{
+			0%{ top:0px; left:0px; transform: rotateZ(0deg)}
+			25%{ top:0px; left:300px; }
+			50%{ top:300px; left:300px;}
+			75%{ top:300px; left:0px; }
+			100%{ top:0px; left:0px; transform: rotateZ(1080deg);}
+		}
+		#shrimps{width:500px;height:10px;
+			position:relative;
+			animation:shrimpsMove 12s infinite linear paused;	}
+			@keyframes shrimpsMove{
+			0%{ top:0px; left:0px; transform: rotateZ(0deg)}
+			25%{ top:0px; left:300px; }
+			50%{ top:300px; left:300px;}
+			75%{ top:300px; left:0px; }
+			100%{ top:0px; left:0px; transform: rotateZ(1080deg);}
+		}
+		#crabs{width:500px;height:10px;
+			position:relative;
+			animation:crabsMove 12s infinite linear paused;	}
+			@keyframes crabsMove{
+			0%{ top:0px; left:0px; transform: rotateZ(0deg)}
+			25%{ top:0px; left:300px; }
+			50%{ top:300px; left:300px;}
+			75%{ top:300px; left:0px; }
+			100%{ top:0px; left:0px; transform: rotateZ(1080deg);}
+		}
+		#shell{width:800px;height:20px;
+			position:relative;
+			animation:shellMove 12s infinite linear paused;	}
+			@keyframes shellMove{
+			0%{ top:0px; left:0px; transform: rotateZ(0deg)}
+			25%{ top:0px; left:300px; }
+			50%{ top:300px; left:300px;}
+			75%{ top:300px; left:0px; }
+			100%{ top:0px; left:0px; transform: rotateZ(1080deg);}
+		}
+		#jelly{width:500px;height:10px;
+			position:relative;
+			animation:jellyMove 12s infinite linear paused;	}
+			@keyframes jellyMove{
+			0%{ top:0px; left:0px; transform: rotateZ(0deg)}
+			25%{ top:0px; left:300px; }
+			50%{ top:300px; left:300px;}
+			75%{ top:300px; left:0px; }
+			100%{ top:0px; left:0px; transform: rotateZ(1080deg);}
+		}
+		h1{color:white;font-size: 3em;text-align: center;padding-top:280px; line-height: 1.2;padding-left: 100px;padding-right: 100px;letter-spacing: -1px;z-index: 9600;}
+
+
+       #sectionA{ background: url('./sea-2.png');background-size:100% auto;background-position: 0px -50px;background-color: 010123;}   
+       #sectionB{ background: url('./무제-6.png');background-size:100% auto;background-position: 0px -50px;  }
+       #sectionC{ background: url('./무제-5.png');background-size:100% auto;background-position: 0px -50px; }
+       #sectionD{ background: url('./무제-3.png');background-size:100% auto;background-position: 0px -50px; }
+       #sectionE{ background: url('./무제-4.png');background-size:100% auto;background-position: 0px -50px; }
+       #balCon{width:100%; height:100%; background: none; position: fixed;z-index: 9999}
+      
+
+      </style>
+
+      <audio autoplay loop>
+	<source src="christmas song.mp3" type="audio/ogg">
+</audio>
+
+   </head>
+
+<body>
+	<div id="balCon"></div>
+	<header id="header">
+	<div id="logo"><img src="christmas.png" width="250px" height="250px"> </div>
+
+	<div id="logo2"><a href="https://sukyeong.github.io/shark-family/"><img src="로고4.png" width="150px" height="150px"> </a></div>
+
+	<div id="logo3"><a href="https://sukyeong.github.io/shark-Halloween/"><img src="halloween.png" width="150px" height="150px"> </div>
+
+	<div id="logo4"><a href="https://sukyeong.github.io/shark-X-mas/"><img src="christmas.png" width="150px" height="150px"> </div>
+
+
+
+	<div id="star">
+		<img src="starfish.png" width="150px" height="150px" style="float:right;"></div>
+
+<div id="shrimps">
+		<img src="shrimp.png" width="150px" height="150px" style="float:left;"></div>
+
+		<div id="crabs">
+		<img src="crab.png" width="150px" height="150px" style="float:left;"></div>
+
+			<div id="shell">
+		<img src="조개.png" width="100px" height="100px" style="float:right;"></div>
+
+        <div id="jelly">
+		<img src="해파리.png" width="100px" height="100px" style="float:right;"></div>
+	
+	<div id="menu">
+
+		<ul>
+			<li id="menuA"><img src="산타파도.gif" width="1200px" height="300px" ;></li>
+
+			<li id="menuB"></li>
+		
+			<li id="menuC"></li>
+			
+			<li id="menuD"></li>
+		
+			<li id="menuE"></li>
+			
+		</ul>
+	</div>
+</header>
+
+<div class="section" id="sectionA">
+
+	<h1 id="titleA">
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		아기 상어
+		<br>
+뚜 루루 뚜루 
+<br>
+신나는   
+<br>
+뚜 루루 뚜루 
+<br>
+크리스마스
+<br>
+뚜 루루 뚜루 
+<br>
+아기 상어 
+</h1>
+	<div style="position: relative;">
+</div>
+<div class="section" id="sectionB">
+	<h1 id="titleB">
+	엄마 상어
+	<br>
+	뚜 루루 뚜루 
+	<br>
+	설레는
+	<br>
+	뚜 루루 뚜루  
+	<br>
+	크리스마스
+	<br>
+	뚜 루루 뚜루  
+	<br>
+	엄마 상어~ </h1>
+	<div style="position: relative;left:10px;top:-70px;">
+</div>
+<div class="section" id="sectionC">
+	<h1 id="titleC">아빠 상어
+	<br>
+	뚜 루루 뚜루 
+	<br>
+	즐거운 
+	<br>
+	뚜 루루 뚜루  
+	<br>
+	크리스마스
+	<br>
+	뚜 루루 뚜루  
+	<br>
+	아빠 상어~</h1>
+	<div style="position: relative;left:20px;top:-100px;">
+</div>
+<div class="section" id="sectionD">
+	<h1 id="titleD">할머니 상어
+	<br>
+	뚜 루루 뚜루
+	<br>
+	행복한
+	<br>
+	뚜 루루 뚜루 
+	<br>
+	크리스마스
+	<br>
+	뚜 루루 뚜루 
+	<br>
+	할머니 상어~</h1>
+	<div style="position: relative;left:30px;top:-120px;">
+</div>
+<div class="section" id="sectionE">
+	<h1 id="titleE">할아버지 상어
+	<br>
+	뚜 루루 뚜루
+	<br>
+	행복한 
+	<br>
+	뚜 루루 뚜루 
+	<br>
+	크리스마스
+	<br>
+	뚜뚜 루루 뚜루 
+	<br>
+	할아버지 상어~
+<br>
+<br>
+<br>
+<br>
+<br></h1>
+	
+
+</div>
+
+<script>
+var state = "stop";
+		//현재 클릭할때마다 움직임을 토글하기 위해 현재 상태를 의미하는 변수를 하나 만들었습니다.
+		//기린아를 클릭하면
+		star.onclick = function(){
+			//우선 콘솔에서 잘 클릭되는지 체크
+			console.log("clicked!!");
+			//만약에 state가 stop이면 
+			if(state == "stop"){
+				star.style.animationPlayState = "running";
+				//스타일에서 애니메이션을 플레이해
+				state = "play";
+				//현재 상태를 플레이로 변경
+			}else{
+				//만약 stop이 아닌 상황이면
+				star.style.animationPlayState = "paused";
+				//스타일에서 애니메이션을 정지시켜
+				state = "stop";
+				//현재 상태를 스톱으로 변경
+			}
+		}
+var state = "stop";
+		//현재 클릭할때마다 움직임을 토글하기 위해 현재 상태를 의미하는 변수를 하나 만들었습니다.
+		//기린아를 클릭하면
+		shrimps.onclick = function(){
+			//우선 콘솔에서 잘 클릭되는지 체크
+			console.log("clicked!!");
+			//만약에 state가 stop이면 
+			if(state == "stop"){
+				shrimps.style.animationPlayState = "running";
+				//스타일에서 애니메이션을 플레이해
+				state = "play";
+				//현재 상태를 플레이로 변경
+			}else{
+				//만약 stop이 아닌 상황이면
+				shrimps.style.animationPlayState = "paused";
+				//스타일에서 애니메이션을 정지시켜
+				state = "stop";
+				//현재 상태를 스톱으로 변경
+			}
+		}
+var state = "stop";
+		//현재 클릭할때마다 움직임을 토글하기 위해 현재 상태를 의미하는 변수를 하나 만들었습니다.
+		//기린아를 클릭하면
+		crabs.onclick = function(){
+			//우선 콘솔에서 잘 클릭되는지 체크
+			console.log("clicked!!");
+			//만약에 state가 stop이면 
+			if(state == "stop"){
+				crabs.style.animationPlayState = "running";
+				//스타일에서 애니메이션을 플레이해
+				state = "play";
+				//현재 상태를 플레이로 변경
+			}else{
+				//만약 stop이 아닌 상황이면
+				crabs.style.animationPlayState = "paused";
+				//스타일에서 애니메이션을 정지시켜
+				state = "stop";
+				//현재 상태를 스톱으로 변경
+			}
+		}
+		var state = "stop";
+		//현재 클릭할때마다 움직임을 토글하기 위해 현재 상태를 의미하는 변수를 하나 만들었습니다.
+		//기린아를 클릭하면
+		shell.onclick = function(){
+			//우선 콘솔에서 잘 클릭되는지 체크
+			console.log("clicked!!");
+			//만약에 state가 stop이면 
+			if(state == "stop"){
+				shell.style.animationPlayState = "running";
+				//스타일에서 애니메이션을 플레이해
+				state = "play";
+				//현재 상태를 플레이로 변경
+			}else{
+				//만약 stop이 아닌 상황이면
+				shell.style.animationPlayState = "paused";
+				//스타일에서 애니메이션을 정지시켜
+				state = "stop";
+				//현재 상태를 스톱으로 변경
+			}
+		}
+				var state = "stop";
+		//현재 클릭할때마다 움직임을 토글하기 위해 현재 상태를 의미하는 변수를 하나 만들었습니다.
+		//기린아를 클릭하면
+		jelly.onclick = function(){
+			//우선 콘솔에서 잘 클릭되는지 체크
+			console.log("clicked!!");
+			//만약에 state가 stop이면 
+			if(state == "stop"){
+				jelly.style.animationPlayState = "running";
+				//스타일에서 애니메이션을 플레이해
+				state = "play";
+				//현재 상태를 플레이로 변경
+			}else{
+				//만약 stop이 아닌 상황이면
+				jelly.style.animationPlayState = "paused";
+				//스타일에서 애니메이션을 정지시켜
+				state = "stop";
+				//현재 상태를 스톱으로 변경
+			}
+		}
+setInterval(attachBubble,200);
+function attachBubble(){
+var t = document.createElement("div"); 
+		t.setAttribute("class","bubble"); 
+  t.style.position = "absolute"; 
+	console.log(window.innerHeight, window.innerWidth);
+	t.style.top = randomBH(0,window.innerHeight) + "px";
+	t.style.left = randomBH(0,window.innerWidth) + "px";
+t.addEventListener("animationend",remove);
+balCon.appendChild(t); 
+}
+function remove(){
+		var t = event.target; 
+		t.parentNode.removeChild(t); 
+}
+function randomBH(min, max) {
+  		min = Math.ceil(min);
+  		max = Math.floor(max);
+  		return Math.floor(Math.random() * (max - min + 1)) + min;
+	}
+	window.onload = function(){window.scrollTo(0,0);}
+		
+		menuA.onclick = function(){ aniScroll(0); }
+		menuB.onclick = function(){ aniScroll(1100); }
+		menuC.onclick = function(){ aniScroll(1800); }
+		menuD.onclick = function(){ aniScroll(2500); }
+		menuE.onclick = function(){ aniScroll(3500); }
+		function aniScroll(destination){
+			var distance = destination - document.body.scrollTop;
+			scrollByAnimated(distance, 250);
+		}
+	window.onscroll = function(){
+		console.log(document.body.scrollTop);
+		var scrollH = document.body.scrollTop;
+		if (scrollH > 00 && scrollH < 120){
+			sectionA.style.backgroundAttachment = "fixed";
+		    header.style.height = "44px";
+			header.style.position = "fixed";
+			header.style.top = "0px";
+			header.style.zIndex = "9999";
+            menuA.style.color="yellow";
+			
+		}else{
+			sectionA.style.backgroundAttachment = "fixed";
+			header.style.height = "44px";
+			header.style.position = "fixed";
+			header.style.top = "0px";
+			header.style.zIndex = "9999";
+			menuA.style.color="white";
+			
+}
+if(scrollH > 120 && scrollH <270){
+			sectionA.style.backgroundAttachment = "fixed";
+		      	
+               
+			
+		}else{
+			sectionA.style.backgroundAttachment = "fixed";
+			sectionB.style.backgroundAttachment = "scroll";
+                 
+			
+			
+}
+if(scrollH > 410){
+		
+			sectionB.style.backgroundAttachment = "fixed";
+			     
+		}else{
+			sectionC.style.backgroundAttachment = "scroll";
+                
+
+			
+			
+}
+if(scrollH > 520){
+		sectionA.style.backgroundAttachment = "fixed";
+		sectionB.style.backgroundAttachment = "fixed";
+			sectionC.style.backgroundAttachment = "fixed";
+			  
+		}else{
+			sectionD.style.backgroundAttachment = "scroll";
+                 
+			
+}
+if(scrollH > 760){
+			menuD.style.color="yellow";
+			      
+		}else{
+			menuD.style.color="white";
+                    
+			
+}
+if(scrollH > 990){
+		sectionA.style.backgroundAttachment = "fixed";
+		sectionB.style.backgroundAttachment = "fixed";
+			sectionC.style.backgroundAttachment = "fixed";
+			sectionD.style.backgroundAttachment = "fixed";
+			      
+		}else{
+			sectionE.style.backgroundAttachment = "scroll";
+                    
+			
+}
+if(scrollH > 1750){
+			
+			       menuE.style.color="yellow";
+		}else{
+			
+                    menuE.style.color="white";
+                   }
+                  }
+			
+</script>
+
+</body>
